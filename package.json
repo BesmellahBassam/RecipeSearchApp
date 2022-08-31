@@ -1,0 +1,33 @@
+{
+  "name": "onlinerecipe",
+  "version": "1.0.0",
+  "description": "An application for searching over one million recipes of dirrerent foods",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BesmellahBassam/RecipeSearchApp.git"
+  },
+  "author": "Besmellah Bassam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BesmellahBassam/RecipeSearchApp/issues"
+  },
+  "homepage": "https://github.com/BesmellahBassam/RecipeSearchApp#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.5",
+    "babel-preset-env": "^1.7.0",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.10.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}
