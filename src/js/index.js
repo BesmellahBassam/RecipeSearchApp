@@ -1,4 +1,6 @@
-// Global app controller
-import x from './test.js'
-const x2 = 234;
-console.log(`I imported ${x} from another module variable x is ${x2}`);
+import Search from './models/Search';
+
+const search = new Search('pizza');
+search.getResults();
+// const data = await search.getResults();
+console.log(search);
