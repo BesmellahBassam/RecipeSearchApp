@@ -33,13 +33,15 @@ const constrolSearch = async () => {
     // 5) Render results on UI
     console.log(state.search.result);
     clearLoader();
-    searchView.renderRecipes(state.search.result);
+    searchView.renderResults(state.search.result);
   }
-  
 }
 
 elements.searchForm.addEventListener('submit', (e) => {
   e.preventDefault();
   constrolSearch();
+});
 
-})
+elements.searchResPages.addEventListener('click', (e) => {
+  console.log(e.target.value);
+});
