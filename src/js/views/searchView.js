@@ -4,8 +4,10 @@ export const getInput = () => elements.searchInput.value;
 
 export const clearInputs = () => {elements.searchInput.value = "" ;}
 
-export const clearResults = () => {elements.searchRecipeList.innerHTML = "";}
-
+export const clearResults = () => {
+  elements.searchRecipeList.innerHTML = "";
+  elements.searchResPages.innerHTML = "" ;
+}
 
 /*
 // 'Pasta with tomato and spinach'
